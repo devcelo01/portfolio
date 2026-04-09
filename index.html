@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+<header>
+  <nav class="container">
+    <h1>Marcelo.dev</h1>
+
+    <ul>
+      <li><a href="#sobre" data-pt="Sobre" data-en="About">Sobre</a></li>
+      <li><a href="#skills" data-pt="Skills" data-en="Skills">Skills</a></li>
+      <li><a href="#projetos" data-pt="Projetos" data-en="Projects">Projetos</a></li>
+      <li><a href="#contato" data-pt="Contato" data-en="Contact">Contato</a></li>
+    </ul>
+
+    <button onclick="trocarIdioma()" id="langBtn">EN</button>
+  </nav>
+</header>
+
+  <!-- HERO -->
+  <section id="hero" class="container hero-flex">
+
+  <div class="hero-text">
+    <h2 data-pt="Olá, eu sou Marcelo 👨‍💻"
+        data-en="Hi, I'm Marcelo 👨‍💻">
+      Olá, eu sou Marcelo 👨‍💻
+    </h2>
+
+    <p data-pt="Futuro engenheiro de software com foco em back-end"
+       data-en="Future software engineer focused on back-end">
+      Futuro engenheiro de software com foco em back-end
+    </p>
+  </div>
+
+  <div class="hero-img">
+    <img src="images/foto-marcelo.jpg" alt="Foto de Marcelo">
+  </div>
+
+</section>
+  
+  <!-- OBJETIVO -->
+  <section id="objetivo">
+  <h2 data-pt="Objetivo Profissional" data-en="Career Objective">
+    Objetivo Profissional
+  </h2>
+
+  <p 
+data-pt="Busco minha primeira oportunidade na área de desenvolvimento de software, com foco em back-end, onde eu possa aplicar meus conhecimentos, evoluir tecnicamente e contribuir com soluções eficientes."
+
+data-en="I am seeking my first opportunity in software development, focused on back-end, where I can apply my knowledge, improve my technical skills, and contribute with efficient solutions.">
+
+    Busco minha primeira oportunidade na área de desenvolvimento de software, com foco em back-end, onde eu possa aplicar meus conhecimentos, evoluir tecnicamente e contribuir com soluções eficientes.
+  </p>
+</section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+  <h2 data-pt="Sobre mim" data-en="About me">Sobre mim</h2>
+
+  <p 
+data-pt="Sou estudante de Análise e Desenvolvimento de Sistemas e tenho direcionado meus estudos para a área de back-end e engenharia de software. Tenho interesse em entender como os sistemas funcionam na prática, buscando sempre evoluir através de projetos e estudos constantes. Sou uma pessoa organizada, dedicada e com facilidade para aprender, focado em construir uma base sólida para crescer na área de tecnologia."
+
+data-en="I am a Systems Analysis and Development student, focused on back-end and software engineering. I am interested in understanding how systems work in practice, constantly improving through projects and continuous learning. I am organized, dedicated, and a fast learner, focused on building a strong foundation to grow in the technology field.">
+    
+    Sou estudante de Análise e Desenvolvimento de Sistemas e tenho direcionado meus estudos para a área de back-end e engenharia de software. Tenho interesse em entender como os sistemas funcionam na prática, buscando sempre evoluir através de projetos e estudos constantes. Sou uma pessoa organizada, dedicada e com facilidade para aprender, focado em construir uma base sólida para crescer na área de tecnologia.
+  </p>
+</section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+  <h2 data-pt="Skills" data-en="Skills">Skills</h2>
+
+  <div class="skill">
+    <p 
+      data-pt="Java - Intermediário" 
+      data-en="Java - Intermediate">
+      Java - Intermediário
+    </p>
+    <div class="barra" ><div class="nivel" style="width: 66%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p 
+      data-pt="HTML - Intermediário" 
+      data-en="HTML - Intermediate">
+      HTML - Intermediário
+    </p>
+    <div class="barra"><div class="nivel" style="width: 66%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p 
+      data-pt="CSS - Básico" 
+      data-en="CSS - Basic">
+      CSS - Básico
+    </p>
+    <div class="barra"><div class="nivel" style="width: 60%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p 
+      data-pt="JavaScript - Básico" 
+      data-en="JavaScript - Basic">
+      JavaScript - Básico
+    </p>
+    <div class="barra"><div class="nivel" style="width: 55%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p 
+      data-pt="SQL - Básico" 
+      data-en="SQL - Basic">
+      SQL - Básico
+    </p>
+    <div class="barra"><div class="nivel" style="width: 50%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p 
+      data-pt="Git/GitHub - Básico" 
+      data-en="Git/GitHub - Basic">
+      Git/GitHub - Básico
+    </p>
+    <div class="barra"><div class="nivel" style="width: 55%"></div></div>
+  </div>
+
+</section>
+
+  <!-- PROJETOS -->
+  <section id="projetos">
+  <h2 data-pt="Projetos" data-en="Projects">Projetos</h2>
+
+  <div class="projeto">
+    <img src="images/16153619604063.jpg" alt="Projeto cartão">
+
+    <h3 data-pt="Identificador de Bandeira de Cartão"
+        data-en="Credit Card Brand Identifier">
+        Identificador de Bandeira de Cartão
+    </h3>
+
+    <p data-pt="Aplicação em JavaScript que identifica bandeiras de cartão."
+       data-en="JavaScript app that identifies credit card brands.">
+      Aplicação em JavaScript que identifica bandeiras de cartão.
+    </p>
+
+    <p><strong>Tech:</strong> JavaScript</p>
+    <a href="https://github.com/devcelo01/dio-lab-validador-bandeiras-cart-o" target="_blank">GitHub</a>
+
+  </div>
+
+  <div class="projeto">
+    <img src="images/16153619604063.jpg" alt="Projeto site institucional">
+    
+    <h3 data-pt="Site Institucional (TCC ETEC)"
+        data-en="Institutional Website (Final Project)">
+      Site Institucional (TCC ETEC)
+    </h3>
+
+    <p data-pt="Desenvolvimento de um site completo como trabalho de conclusão de curso, focado em estrutura e layout."
+       data-en="Development of a complete website as a final project, focused on structure and layout.">
+      Desenvolvimento de um site completo como trabalho de conclusão de curso, focado em estrutura e layout.
+    </p>
+
+    <p><strong>Tech:</strong> HTML, CSS</p>
+    <a href="#" target="_blank">GitHub</a>
+  </div>
+</section>
+
+  <!-- INFORMAÇÕES ADICIONAIS -->
+  <section id="info">
+  <h2>Informações</h2>
+    <p>📍 São Paulo - SP</p>
+    <p>🎓 ADS - São Judas (2027)</p>
+    <p>💼 Buscando primeira oportunidade</p>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <h2 data-pt="Contato" data-en="Contact">Contato</h2>
+
+    <p>Email: marcelo.andradesilva26@gmail.com</p>
+
+    <div class="redes">
+        <a href="https://github.com/devcelo01"><img src="images/github.png"></a>
+        <a href="https://www.linkedin.com/in/marcelo-andrade-da-silva/"><img src="images/linkedin.png"></a>
+        <a href="https://www.instagram.com/marcelo__andrade06/"><img src="images/instagram.png"></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Marcelo</p>
+  </footer>
+
+  <button id="topBtn" onclick="voltarTopo()">↑</button>
+  <script src="script.js"></script>
+  
+</body>
+</html>
